@@ -1,3 +1,3 @@
 #ToDo List with React
 
-this is some bad project with react.
+- this is some bad project with react.
