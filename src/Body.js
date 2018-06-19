@@ -38,12 +38,12 @@ class Body extends Component {
 						)
 		console.log(element);
 		return (
-			<div>
-				<ul>
+			<div className="content">
+				<ul className="unorderlist">
 					{element}
 				</ul>
-				<input type='text' onChange={(e) => {this.setState({text : e.target.value})}} value={this.state.text}/>
-				<button onClick={this.addToDo.bind(this)}> Add </button>
+				<input className="input" type='text' onChange={(e) => {this.setState({text : e.target.value})}} value={this.state.text}/>
+				&nbsp;<button className="btn" onClick={this.addToDo.bind(this)}> Add </button>
 			</div>
 		)
 	}

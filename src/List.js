@@ -8,7 +8,7 @@ class List extends Component {
 		const {func , data} = this.props;
 		return (
 			<li>
-				<h3>{data} <button onClick={func}>Del</button></h3>
+				<h3>{data} <button className="btn" onClick={func}>Del</button></h3>
 			</li>
 		)
 	}

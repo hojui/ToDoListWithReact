@@ -10,7 +10,8 @@ class App extends Component {
       padding : '20px',
       fontSize : '30px',
       backgroundColor : 'tomato',
-      color : 'white'
+      color : 'white',
+      fontFamily : 'courier'
     };
   }
   render() {

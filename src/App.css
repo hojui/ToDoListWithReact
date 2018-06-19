@@ -26,3 +26,39 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.btn {
+  font-family: courier;
+  transition: width 0.2s linear;
+  width: 70px;
+  height: 20px;
+  color: white;
+  background-color: #423F3E;
+  border-radius: 5px;
+  border:none;
+  height: 30px;
+}
+
+.btn:hover {
+  width: 80px;
+  background-color: #635F5E;
+}
+
+.content {
+  font-family: courier;
+  text-align: center;
+}
+
+.input {
+  font-family: courier;
+  height: 20px;
+  width: 800px;
+  border-radius: 5px;
+}
+.unorderlist {
+  list-style-type: none;
+}
+
+.h3 {
+  color : #4E4B4A
+}
