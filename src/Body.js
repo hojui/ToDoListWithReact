@@ -23,9 +23,10 @@ class Body extends Component {
 		}
 	}
 	deleteToDo(index) {
+		console.log("index to delete",index);
 		console.log(this.state.value[index]);
 		let tmp = this.state.value;
-		tmp.splice(index,index+1);
+		tmp.splice(index,1);
 		this.setState({value : tmp});
 	}
 	render() {
